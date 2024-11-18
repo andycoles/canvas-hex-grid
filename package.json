@@ -1,0 +1,20 @@
+{
+  "name": "canvas-hex-grid",
+  "version": "1.0.0",
+  "description": "a canvas-based hex grid for a game map",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js",
+    "dev": "esbuild --bundle src/index.ts --outfile=dist/index.js --watch"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Andy Coles",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.3"
+  }
+}
